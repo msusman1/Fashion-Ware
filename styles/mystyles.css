@@ -1,0 +1,92 @@
+body{
+	margin: 0;
+}
+#container{
+	background-color: #eaf0f2;
+	width: 80%;
+	height: 1000px;
+	margin-left: 10%;
+	margin-right: 10%;
+	
+}
+header{
+	height: 100px;
+	background-color: violet; //#e2136b
+	width: 100%; 
+}
+header img{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#company_name{
+	
+	display:inline-block;
+	height:100px;
+	vertical-align:middle;
+	font-variant: bold;
+	font-size: 28px;  
+	width: 40%;
+	margin-left: 20px;
+
+}
+header input{
+	height: 40px;
+	margin-top: 30px;
+	margin-right: 20px;
+	border-radius: 10px;
+	float: right;
+}
+nav table{
+	display: block;
+	background-color: blue;
+}
+nav a{
+	display: block;
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;
+}
+  a:hover {
+	background-color: grey;
+	 
+}
+
+#slider{
+	height: 300px;
+	width: 100%; 
+}
+#imageContainer{
+	display: grid; 
+	grid-template-columns: auto auto auto auto;
+  grid-gap: 15px;
+  padding: 15px;
+}
+#imageContainer  > div { 
+  height: auto;
+  width: 100%; 
+background-color: lightgrey;
+border: 2px solid #090909;
+border-radius: 6px; 
+
+}
+#imageContainer img{
+	height: auto;
+	width: 100%;
+}
+#imageContainer a{
+	cursor: pointer;
+}
+#imageContainer a:hover{
+	opacity: 0.5;
+}
+#imageContainer .desc{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 16px;
+	text-align: center;
+
+}
+
+[id^=image]{
+	
+}
